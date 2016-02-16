@@ -54,10 +54,12 @@ html, body {
 }
 
 .hex.inner:before {
+  top: -89px;
   border-bottom: 90px solid #202020;
 }
 
 .hex.inner:after {
+  bottom: -89px;
   border-top: 90px solid #202020;
 }
   
