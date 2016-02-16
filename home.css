@@ -37,11 +37,11 @@ html, body {
 }
 
 .hex:before {
-  top: -89px;
+  top: -90px;
   border-bottom: 90px solid #41C4EE;
 }
 .hex:after {
-  bottom: -89px;
+  bottom: -90px;
   border-top: 90px solid #41C4EE;
 }
 
