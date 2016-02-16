@@ -22,7 +22,7 @@ html, body {
 }
 
 .hex {
-  margin-top: 200px;
+  margin-top: 140px;
   width: 360px;
   height: 200px;
   background-color: #41C4EE;
@@ -47,9 +47,9 @@ html, body {
 
 .hex.inner {
   background-color: #202020;
-  -webkit-transform: scale(.99, .99);
-  -moz-transform: scale(.99, .99);
-  transform: scale(.99, .99);
+  -webkit-transform: scale(.98, .98);
+  -moz-transform: scale(.98, .98);
+  transform: scale(.98, .98);
   z-index: 1;
 }
 
@@ -69,11 +69,57 @@ html, body {
 .hexagon-text {
   position: relative;
   font-size: 40px;
-  margin: -130px auto 220px;
+  margin: -130px 0 210px;
 }
 
 .subtitle {
   position: relative;
-  margin: auto;
-  max-width: 600px;
 }
+
+.social-link-container {
+  width: 600px;
+  margin: 24px auto;
+}
+
+.social-link {
+  display: inline-block;
+  border: 2px solid #41C4EE;
+  margin: 0 14px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+.social-link:hover {
+  border: 2px solid #FCFCFC;
+  box-shadow: 0 0 0 2px #FCFCFC;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.social-link:active {
+  border: 2px solid #FCFCFC;
+  box-shadow: 0 0 0 0;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+
+.social-link a, .social-link a:visited {
+  color: #FCFCFC;
+  text-decoration: none;
+}
+
+i {
+  display: block;
+  border-radius: 100%;
+}
+
+.fa-linkedin, .fa-github {
+  padding: 14px 15.5px;
+}
+
+.fa-twitter {
+  padding: 14px 15px;
+}
+
